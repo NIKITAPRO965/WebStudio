@@ -1,12 +1,12 @@
 :root {
-    --color1: #000000;
-    --color2: #2196F3;
-    --color3: #212121;
-    --color4: #757575;
-    --color5: #2F303A;
-    --color6: #2F303A;
-    --color7: #FFFFFF;
-    --color8: #F5F4FA;
-    --color9: #EEEEEE;
+    --logocolor: #000000;
+    --accentcolor: #2196F3;
+    --textcolor: #212121;
+    --additionaltextcolor: #757575;
+    --backgroundfootercolor: #2F303A;
+    --backgroundfootertransparentcolor: #2F303A;
+    --maincolor: #FFFFFF;
+    --backgroundcolor: #F5F4FA;
+    --backgroundmainportfoliocolor: #EEEEEE;
     }
     
