@@ -9,4 +9,7 @@
     --back-ground-color: #F5F4FA;
     --back-ground-main-portfolio-color: #EEEEEE;
     }
+    body{
+        font-family: "Roboto Medium";
+    }
     
