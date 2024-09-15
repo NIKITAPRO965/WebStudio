@@ -44,76 +44,39 @@ letter-spacing: 0.28px;
 .header-items-item :hover{
     color: var(--accent-color);
 }
-.main-section-background{
-    background: var(--back-ground-footer-transparent-color);
-    width: 1600px;
-height: 600px;
-flex-shrink: 0;
-}
-.main-section-headline{
-    color:var(--main-color);
-text-align: center;
-font-size: 44px;
-font-weight: 900;
-line-height:1,36px ;
-letter-spacing: 2.64px;
-text-transform: uppercase;
-}
-.main-section-button{
-    color: var(--main-color);
-text-align: center;
-font-family: Roboto;
-font-size: 16px;
-font-weight: 700;
-line-height:1,87px;
-letter-spacing: 0.96px;
-border-radius: 4px;
-background: var(--accent-color);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.main-section-list-item-title{
+.main-section-list-item-button{
     color: var(--text-color);
-font-size: 14px;
-font-weight: 700;
-letter-spacing: 0.42px;
-text-transform: uppercase;
-}
-.main-section-list-item-text{
-    color: var(--additional-text-color);
-font-size: 14px;
-font-weight: 400;
-line-height:1,71px;
-letter-spacing: 0.42px;
-}
-.main-section-title{
-    color: var(--text-color);
-text-align: center;
-font-size: 36px;
-font-weight: 700;
-letter-spacing: 1.08px;
-}
-.main-section-list-item-image{
-width: 370px;
-height: 294px;
-flex-shrink: 0;
-}
-.main-section-list-item-img{
-    width: 270px;
-height: 260px;
-flex-shrink: 0;
-}
-.main-section-list-item-caption{
-color: var(--text-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
+line-height:1,62;
 letter-spacing: 0.48px;
 }
-.main-section-list-item-text-team{
+.main-section-list-item-button :hover{
+    border-radius: 4px;
+background: var(--accent-color);
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+width: 73px;
+height: 38px;
+flex-shrink: 0;
+}
+.main-section-list-item-image{
+    width: 370px;
+height: 294px;
+flex-shrink: 0;
+}
+.main-section-list-item-subject{
+    color: var(--text-color);
+font-size: 18px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 1.08px;
+}
+.main-section-list-item-text-projects{
     color: var(--additional-text-color);
-text-align: center;
 font-size: 16px;
 font-weight: 400;
+line-height:1,87px;
 letter-spacing: 0.48px;
 }
 .footer-link{
