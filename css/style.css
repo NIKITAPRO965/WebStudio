@@ -18,6 +18,7 @@ font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
+line-height: 1.38;
     }
  .header-span{
     color: var(--logo-color);
@@ -25,12 +26,14 @@ font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
+line-height: 1.38;
  }   
 .nav-link{
     color: var(--text-color);
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
+line-height: 1.14;
 }
 .nav-item :hover{
     color: var(--accent-color);
@@ -40,6 +43,7 @@ letter-spacing: 0.28px;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0.28px;
+line-height: 1.14;
 }
 .header-item :hover{
     color: var(--accent-color);
@@ -77,6 +81,7 @@ font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+line-height: 1.14;
 }
 .information-text{
     color: var(--additional-text-color);
@@ -92,11 +97,13 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
+line-height: 1.66;
 }
 .work-image{
 width: 370px;
 height: 294px;
 flex-shrink: 0;
+
 }  
 .team-title{
     color: var(--text-color);
@@ -104,6 +111,7 @@ text-align: center;
 font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
+line-height:1.66;
 }
 .team-img{
     width: 270px;
@@ -116,6 +124,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 500;
 letter-spacing: 0.48px;
+line-height:1.18;
 }
 .text-team{
     color: var(--additional-text-color);
@@ -123,6 +132,7 @@ text-align: center;
 font-size: 16px;
 font-weight: 400;
 letter-spacing: 0.48px;
+line-height:1.18;
 }
 .footer-link{
     color: var(--accent-color);
@@ -130,6 +140,7 @@ font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
+line-height:1.38;
 }
 .footer-span{
 color: var(--main-color);
@@ -137,6 +148,7 @@ font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
+line-height:1.38;
 }
 .address-link{
     color: var(--main-color);
