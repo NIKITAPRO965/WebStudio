@@ -60,11 +60,11 @@ line-height: 1.14;
 .header-item :hover{
     color: var(--accent-color);
 }
-.site{
+.projects{
     padding-top: 94px;
-    padding-bottom: 50px;
+    padding-bottom: 94pxpx;
 }
-.site-button{
+.projects-button{
     color: var(--text-color);
 text-align: center;
 font-size: 16px;
@@ -72,16 +72,13 @@ font-weight: 500;
 line-height:1.62;
 letter-spacing: 0.48px;
 }
-.site-item :hover{
+.projects-item :hover{
     border-radius: 4px;
 background: var(--accent-color);
 box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 width: 73px;
 height: 38px;
 flex-shrink: 0;
-}
-.projects{
-    padding-bottom: 94px;
 }
 .projects-image{
     width: 370px;
