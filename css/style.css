@@ -208,7 +208,6 @@ letter-spacing: 0.78px;
 line-height:1.38; 
 display: inline-block;
 margin-bottom: 20px;
-margin-top: 60px;
 }
 .footer-span{
 color: var(--main-color);
@@ -218,12 +217,22 @@ font-weight: 700;
 letter-spacing: 0.78px;
 line-height:1.38;
 }
+.footer-address{
+    font-style: normal;
+}
 .address-link{
     color: var(--main-color);
 font-size: 14px;
 font-weight: 400;
 line-height:1.71;
 letter-spacing: 0.42px;
+display: inline-block;
+margin-bottom: 9px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;;
 }
 .item-link{
     color: rgba(255, 255, 255, 0.60);
@@ -231,8 +240,6 @@ font-size: 14px;
 font-weight: 400;
 line-height:1.71;
 letter-spacing: 0.42px;
-display: inline-block;
-margin: 9px 0px;
 }
 .footer{
     background: var(--back-ground-footercolor);
