@@ -23,6 +23,7 @@
     header{
         padding-top: 24px;
         padding-bottom: 25px;
+        background-color: var(--main-color);
     }
     .link{
         color: var(--accent-color);
@@ -63,6 +64,7 @@ line-height: 1.14;
 .projects{
     padding-top: 94px;
     padding-bottom: 94pxpx;
+    background-color: var(--main-color);
 }
 .projects-button{
     color: var(--text-color);
