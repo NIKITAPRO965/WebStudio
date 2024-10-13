@@ -14,7 +14,7 @@
     }
     .container{
         width: 1200px;
-        outline: solid red;
+        outline: 1px solid red;
         margin-left: auto;
         margin-right: auto;
         padding-left: 15px;
@@ -25,6 +25,10 @@
         padding-bottom: 25px;
         background-color: var(--main-color);
     }
+    .header-box{
+        display: flex;
+        align-items: center;
+    }
     .link{
         color: var(--accent-color);
 font-family: Raleway;
@@ -32,6 +36,7 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 line-height: 1.38;
+margin-right: 93px;
     }
  .header-span{
     color: var(--logo-color);
@@ -40,7 +45,12 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 line-height: 1.38;
- }   
+ }  
+
+ .nav-list{
+    display: flex;
+    gap: 50px;
+ }
 .nav-link{
     color: var(--text-color);
 font-size: 14px;
@@ -50,6 +60,11 @@ line-height: 1.14;
 }
 .nav-item :hover{
     color: var(--accent-color);
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
 }
 .header-link{
     color:var(--additional-text-color);
@@ -108,6 +123,8 @@ font-size: 26px;
 font-weight: 700;
 letter-spacing: 0.78px;
 line-height:1.38; 
+display: inline-block;
+margin-bottom: 20px;
 }
 .footer-span{
 color: var(--main-color);
@@ -117,12 +134,22 @@ font-weight: 700;
 letter-spacing: 0.78px;
 line-height:1.38;
 }
+.footer-address{
+    font-style: normal;
+}
 .address-link{
     color: var(--main-color);
 font-size: 14px;
 font-weight: 400;
 line-height:1.71;
 letter-spacing: 0.42px;
+display: inline-block;
+margin-bottom: 9px;
+}
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;;
 }
 .item-link{
     color: rgba(255, 255, 255, 0.60);
@@ -132,7 +159,7 @@ line-height:1.71;
 letter-spacing: 0.42px;
 }
 .footer{
-    background: var(--back-ground-footercolor);
+    background-color: var(--back-ground-footercolor);
 flex-shrink: 0;
 padding-top: 94px;
 padding-bottom: 94px;
