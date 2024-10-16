@@ -81,15 +81,16 @@ line-height: 1.14;
     padding-bottom: 94pxpx;
     background-color: var(--main-color);
 }
-.projects-button{
+.other-button{
     color: var(--text-color);
 text-align: center;
 font-size: 16px;
 font-weight: 500;
 line-height:1.62;
 letter-spacing: 0.48px;
+border-radius: 4px;
 }
-.projects-item :hover{
+.other-item :hover{
     border-radius: 4px;
 background: var(--accent-color);
 box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
@@ -97,10 +98,18 @@ width: 73px;
 height: 38px;
 flex-shrink: 0;
 }
+.other-list{
+    display: inline-block;
+    display: flex;
+    gap: 8px;
+    margin-left: 322px;
+    margin-right: 320px;
+}
 .projects-image{
     width: 370px;
 height: 294px;
 flex-shrink: 0;
+margin-top: 56px;
 }
 .projects-subject{
     color: var(--text-color);
@@ -115,6 +124,16 @@ font-size: 16px;
 font-weight: 400;
 line-height:1.87;
 letter-spacing: 0.48px;
+padding-top: 4px;
+}
+.projects-list{
+    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.projects-div{
+    padding: 20px 24px;
 }
 .footer-link{
     color: var(--accent-color);
