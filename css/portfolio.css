@@ -103,8 +103,7 @@ color: var(--main-color);
     margin-bottom: 50px;
 }
 .projects-image{
-    width: 370px;
-height: 294px;
+    width: 100%;
 flex-shrink: 0;
 }
 .projects-subject{
@@ -127,6 +126,9 @@ margin-top: 4px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+}
+.projects-item{
+    flex-basis: calc((100% - 60px) / 3);
 }
 .projects-div{
     padding: 20px 24px;
