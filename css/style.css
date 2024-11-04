@@ -114,6 +114,7 @@ background: var(--accent-color);
 padding: 10px 32px;
 border-radius: 4px;
 border: none;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .information{
     padding-top: 94px;
@@ -225,6 +226,9 @@ flex-shrink: 0;
 .team-list{
     display: flex;
     gap: 30px;
+}
+.team-item{
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 .team-div{
     padding: 30px 0px;

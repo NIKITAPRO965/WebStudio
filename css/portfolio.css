@@ -94,6 +94,7 @@ padding: 6px 25px;
 .other-item :hover{
 background: var(--accent-color);
 color: var(--main-color);
+box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 .other-list{
     display: inline-block;
@@ -129,6 +130,8 @@ margin-top: 4px;
 }
 .projects-item{
     flex-basis: calc((100% - 60px) / 3);
+    border: 1px solid var(--back-ground-main-portfolio-color);
+background: var(--main-color);
 }
 .projects-div{
     padding: 20px 24px;
