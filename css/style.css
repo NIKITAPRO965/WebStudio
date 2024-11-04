@@ -84,6 +84,11 @@ padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
 }
+.hero-box{
+    background-image: url(../img/workcar.jpg);
+    background-repeat: no-repeat;
+    background-color: rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40);
+}
 .order-headline{
     color:var(--main-color);
 text-align: center;
