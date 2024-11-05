@@ -29,6 +29,9 @@
         display: flex;
         align-items: center;
     }
+    .active:active{
+        color: blue;
+    }
     .link{
         color: var(--accent-color);
 font-family: Raleway;
@@ -90,6 +93,7 @@ line-height:1.62;
 letter-spacing: 0.48px;
 border-radius: 4px;
 padding: 6px 25px;
+border: none;
 }
 .other-item :hover{
 background: var(--accent-color);
@@ -132,6 +136,8 @@ margin-top: 4px;
     flex-basis: calc((100% - 60px) / 3);
     border: 1px solid var(--back-ground-main-portfolio-color);
 background: var(--main-color);
+}
+.projects-item:hover{box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
 }
 .projects-div{
     padding: 20px 24px;

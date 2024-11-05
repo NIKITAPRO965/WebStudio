@@ -29,6 +29,9 @@
         display: flex;
         align-items: center;
     }
+    .active:active{
+        color: blue;
+    }
     .link{
         color: var(--accent-color);
 font-family: Raleway;
@@ -86,8 +89,10 @@ text-align: center;
 }
 .hero-box{
     background-image: url(../img/workcar.jpg);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    background-color: rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40);
+    overlay: rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40);
 }
 .order-headline{
     color:var(--main-color);
