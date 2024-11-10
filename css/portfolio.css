@@ -8,6 +8,7 @@
     --main-color: #FFFFFF;
     --back-ground-color: #F5F4FA;
     --back-ground-main-portfolio-color: #EEEEEE;
+    --border: #ECECEC;
     }
     body{
         font-family: "Roboto";
@@ -78,6 +79,9 @@ line-height: 1.14;
 }
 .header-item :hover{
     color: var(--accent-color);
+}
+.main{
+    border-top: 1px solid var(--border) ;
 }
 .projects{
     padding-top: 94px;
