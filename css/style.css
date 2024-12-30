@@ -30,7 +30,7 @@
         align-items: center;
     }
     .active:visited{
-        color: blue;
+        color: var(--accent-color);
     }
     .link{
         color: var(--accent-color);
@@ -88,11 +88,10 @@ padding-bottom: 200px;
 text-align: center;
 }
 .hero-box{
-    background-image: url(../img/workcar.jpg);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcar.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    overlay: rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40);
 }
 
 .order-headline{

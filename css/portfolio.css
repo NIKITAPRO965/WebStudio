@@ -31,7 +31,7 @@
         align-items: center;
     }
     .active:visited{
-        color: blue;
+        color: var(--accent-color);
     }
     .link{
         color: var(--accent-color);
