@@ -94,6 +94,7 @@ text-align: center;
     background-repeat: no-repeat;
     overlay: rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40);
 }
+
 .order-headline{
     color:var(--main-color);
 text-align: center;
