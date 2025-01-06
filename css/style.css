@@ -62,8 +62,8 @@ font-weight: 500;
 letter-spacing: 0.28px;
 line-height: 1.14;
 }
-.nav-item:hover,
-.nav-item:focus{
+.nav-link:hover,
+.nav-link:focus{
     color: var(--accent-color);
     outline: 0px solid transparent;
 }
@@ -93,7 +93,7 @@ margin-right: 10px;
 height: 16px;
 margin-right: 10px;
 }
-.header-link:hover
+.header-link:hover,
 .header-link:focus{
     color: var(--accent-color);
     outline: 0px solid transparent;
@@ -443,6 +443,7 @@ background-color:  rgba(255, 255, 255, 0.10);
     border-radius: 50%;
     background: url(../img/symbol-defs.svg#icon-ellipse);
     background-color: var(--accent-color);
+    outline: 0px solid transparent;
 }
 .footer{
     background-color: var(--back-ground-footercolor);
