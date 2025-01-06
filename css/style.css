@@ -352,7 +352,8 @@ border: 1px solid var(--icon);
     width: 106px;
 height: 60px;
 }
-.clients-item:hover{
+.clients-item:hover,
+.clients-item:focus{
     border: 1px solid var(--accent-color);
     .clients-icon{
         fill: var(--accent-color);
@@ -437,32 +438,14 @@ background-color:  rgba(255, 255, 255, 0.10);
     height: 20px;
     fill: var(--main-color);
 }
-.footer-links:hover{
+.footer-links:hover,
+.footer-links:focus{
     border-radius: 50%;
     background: url(../img/symbol-defs.svg#icon-ellipse);
     background-color: var(--accent-color);
 }
-.{
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     background-color: var(--back-ground-footercolor);
-flex-shrink: 0;
 padding-top: 94px;
 padding-bottom: 94px;
 }
