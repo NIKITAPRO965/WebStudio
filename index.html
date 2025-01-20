@@ -197,6 +197,28 @@
         <button type="button" class="modal-close" data-modal-close><svg class="modal-svg">
           <use href="./img/symbol-defs.svg#icon-close"></use>
         </svg></button>
+        <form>
+        <h2 class="modal-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <ul class="modal-list">
+        <li class="modal-item"><label class="modal-label">Ім'я<div class="modal-div"><input type="text" class="modal-input" required>
+          <svg class="modal-svgs">
+            <use href="./img/symbol-defs.svg#icon-person"></use>
+          </svg></div></label></li>
+        <li class="modal-item"><label class="modal-label">Телефон<div class="modal-div"><input type="tel" class="modal-input" required>
+          <svg class="modal-svgs">
+            <use href="./img/symbol-defs.svg#icon-phone"></use>
+          </svg></div></label></li>
+        <li class="modal-item"><label class="modal-label">Пошта<div class="modal-div"><input type="email" class="modal-input" required>
+          <svg class="modal-svgs">
+            <use href="./img/symbol-defs.svg#icon-email"></use>
+          </svg></div></label></li>
+        </ul>
+        <label class="modal-label">Коментар<textarea name="" id="" placeholder="Введіть текст" class="modal-comment"></textarea></label>
+        <label class="modal-labels">
+        <input type="checkbox" required><p class="modal-text">Погоджуюся з розсилкою та приймаю <a href="#" class="modal-link">Умови договору</a></p>
+      </label>
+       <button type="submit" class="modal-butt">Відправити</button>
+      </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
