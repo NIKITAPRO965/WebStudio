@@ -36,7 +36,7 @@
       <section class="hero hero-box">
         <div class="container">
         <h1 class="order-headline">Ефективні рішення для вашого бізнесу</h1>
-        <button class="order-button" type="button">Замовити послугу</button>
+        <button class="order-button" type="button" data-modal-open>Замовити послугу</button>
         </div>
       </section>
       <section class="information">
@@ -190,8 +190,15 @@
         <li class="footer-items"><a href="#" class="footer-links"><svg class="footeer-icon"><use href="./img/symbol-defs.svg#icon-linkedin"></use></svg></a></li>
       </ul>
       </div>
-      
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button type="button" class="modal-close" data-modal-close><svg class="modal-svg">
+          <use href="./img/symbol-defs.svg#icon-close"></use>
+        </svg></button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>

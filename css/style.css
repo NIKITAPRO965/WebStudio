@@ -486,3 +486,55 @@ background-color:  rgba(255, 255, 255, 0.10);
 padding-top: 94px;
 padding-bottom: 94px;
 }
+
+
+/* -----------modal-window------------------ */
+.backdrop{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.20);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+}
+.is-hidden{
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+}
+.modal{
+    width: 528px;
+height: 581px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
+position: relative;
+}
+.modal-close{
+    width: 30px;
+height: 30px;
+background-color: transparent;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+outline: 1px solid rgba(0, 0, 0, 0.10);
+border: none;
+position: absolute;
+top: 8px;
+right: 8px;
+}
+.modal-svg{
+    width: 18px;
+height: 18px;
+}
+.modal-close:hover,
+.modal-close:focus{
+    .modal-svg:hover{
+        fill: var(--accent-color);
+    }
+}
