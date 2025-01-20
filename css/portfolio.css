@@ -262,6 +262,65 @@ background-color:  rgba(255, 255, 255, 0.10);
     background-color: var(--accent-color);
     outline: 0px solid transparent;
 }
+
+.footer-dives{
+    margin-left: 93px;
+    width: 570px;
+height: 86px;
+position: relative;
+}
+.dives-text{
+    color:var(--main-color);
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+}
+.dives-input{
+    display: flex;
+flex-direction: column;
+justify-content: center;
+color: rgba(255, 255, 255, 0.60);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.25;
+letter-spacing: 0.48px;
+border: none;
+width: 358px;
+    height: 50px;
+    border-radius: 4px;
+border: 1px solid rgba(255, 255, 255, 0.30);
+background: rgba(33, 150, 243, 0.00);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+position: absolute;
+bottom: 0px;
+left: 0px;
+}
+.dives-button{
+position: absolute;
+bottom: 0px;
+right: 0px;
+width: 200px;
+height: 50px;
+border-radius: 4px;
+background:var(--accent-color);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+border: none;
+color:var(--main-color);
+font-size: 16px;
+font-weight: 700;
+line-height: 1.87;
+letter-spacing: 0.96px;
+display: flex;
+justify-content: center; 
+align-items: center;
+}
+.dives-svg{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;
+fill: var(--main-color);
+}
 .footer{
     background-color: var(--back-ground-footercolor);
 padding-top: 94px;
