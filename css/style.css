@@ -483,7 +483,7 @@ background-color:  rgba(255, 255, 255, 0.10);
 }
 
 .footer-dives{
-    margin-left: 93px;
+    margin-left: auto;
     width: 570px;
 height: 86px;
 position: relative;
