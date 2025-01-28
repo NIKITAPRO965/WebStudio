@@ -31,8 +31,21 @@
         display: flex;
         align-items: center;
     }
+    .nav-item{
+        position: relative;
+    }
     .active:visited{
         color: var(--accent-color);
+    }
+    .active::after{
+        content: "";
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        background:var(--accent-color);
+        display: block;
+        position: absolute;
+        bottom: -33.59px;
     }
     .link{
         color: var(--accent-color);
