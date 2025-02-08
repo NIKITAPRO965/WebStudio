@@ -192,6 +192,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .projects-item:hover{
     .project-text{
         visibility: visible;
+        transform: translateY(0);
     }
 }
 .projects-image{
@@ -213,9 +214,10 @@ width: 100%;
 height: 100%;
 margin: 0px;
 visibility: hidden;
-transition-property: visibility;
+transition-property: transform, visibility;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transform: translateY(100%);
 }
 
 
