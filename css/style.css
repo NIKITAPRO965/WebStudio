@@ -587,15 +587,28 @@ padding-bottom: 94px;
     bottom: 0px;
     background-color: rgba(0, 0, 0, 0.20);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 1;
+    /* align-items: center;
+    justify-content: center; */
+    /* opacity: 1;  */
+    visibility: visible;
+    transition-property: visibility, opacity;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .is-hidden{
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
+    transition-property: visibility;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.is-hidden .modal{
+    transform: translate(0) rotate(0) scale(0);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .modal{
     width: 528px;
 height: 581px;
@@ -604,6 +617,12 @@ background: #FFF;
 box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 position: relative;
 padding: 40px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) rotate(360deg) scale(1);
+transition-property: transform;
+transition-duration: 250ms ;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close{
     width: 30px;
@@ -618,8 +637,8 @@ border: none;
 position: absolute;
 top: 8px;
 right: 8px;
-transition-property: ;
-transition-duration: 2500ms;
+transition-property: visibility, transform;
+transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-svg{
