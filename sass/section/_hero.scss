@@ -1,0 +1,42 @@
+
+.hero{
+    background: var(--back-ground-footer-transparent-color);
+flex-shrink: 0;
+padding-top: 200px;
+padding-bottom: 200px;
+text-align: center;
+}
+.hero-box{
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.order-headline{
+    color:var(--main-color);
+text-align: center;
+font-size: 44px;
+font-weight: 900;
+line-height:1.36 ;
+letter-spacing: 2.64px;
+text-transform: uppercase;
+width: 696px;
+margin: 0px auto;
+margin-bottom: 30px;
+}
+.order-button{
+    color: var(--main-color);
+text-align: center;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 700;
+line-height:1.87;
+letter-spacing: 0.96px;
+border-radius: 4px;
+background: var(--accent-color);
+padding: 10px 32px;
+border-radius: 4px;
+border: none;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
