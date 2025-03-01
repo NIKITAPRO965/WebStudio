@@ -2,10 +2,10 @@
 .projects{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--main-color);
+    background-color: $main-color;
 }
 .other-button{
-    color: var(--text-color);
+    color: $text-color;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -14,14 +14,14 @@ letter-spacing: 0.48px;
 border-radius: 4px;
 padding: 6px 25px;
 border: none;
-transition-property: background, color, box-shadow;
+transition-property: color, box-shadow;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .other-button:hover,
 .other-button:focus{
-background: var(--accent-color);
-color: var(--main-color);
+background: $accent-color;
+color: $main-color;
 box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 outline: 0px solid transparent;
 }
@@ -40,8 +40,8 @@ outline: 0px solid transparent;
 }
 .projects-item{
     flex-basis: calc((100% - 60px) / 3);
-    border: 1px solid var(--back-ground-main-portfolio-color);
-background: var(--main-color);
+    border: 1px solid $back-ground-main-portfolio-color;
+background: $main-color;
 transition-property: box-shadow, visibility;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -66,7 +66,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .project-text{
     padding: 63px 24px;
-    color:var(--main-color);
+    color: $main-color;
     background: rgba(33, 150, 243, 0.90);
 font-size: 18px;
 font-weight: 400;
@@ -85,18 +85,15 @@ transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 transform: translateY(100%);
 }
-
-
-
 .projects-subject{
-    color: var(--text-color);
+    color: $text-color;
 font-size: 18px;
 font-weight: 700;
 line-height: 2;
 letter-spacing: 1.08px;
 }
 .projects-text{
-    color: var(--additional-text-color);
+    color: $additional-text-color;
 font-size: 16px;
 font-weight: 400;
 line-height:1.87;

@@ -1,10 +1,10 @@
 .footer{
-    background-color: var(--back-ground-footercolor);
+    background-color: $back-ground-footercolor;
 padding-top: 94px;
 padding-bottom: 94px;
 }
 .footer-link{
-    color: var(--accent-color);
+    color: $accent-color;
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -14,7 +14,7 @@ display: inline-block;
 margin-bottom: 20px;
 }
 .footer-span{
-color: var(--main-color);
+color: $main-color;
 font-family: Raleway;
 font-size: 26px;
 font-weight: 700;
@@ -25,7 +25,7 @@ line-height:1.38;
     font-style: normal;
 }
 .address-link{
-    color: var(--main-color);
+    color: $main-color;
 font-size: 14px;
 font-weight: 400;
 line-height:1.71;
@@ -77,19 +77,19 @@ background-color:  rgba(255, 255, 255, 0.10);
 .footer-links{
     border-radius: 50%;
     padding: 12px;
-    transition-property: background, background-color;
+    transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footeer-icon{
     width: 20px;
     height: 20px;
-    fill: var(--main-color);
+    fill: $main-color;
 }
 .footer-links:hover,
 .footer-links:focus{
     background: url(../img/symbol-defs.svg#icon-ellipse);
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     outline: 0px solid transparent;
 }
 
@@ -100,7 +100,7 @@ height: 86px;
 position: relative;
 }
 .dives-text{
-    color:var(--main-color);
+    color:$main-color;
 font-size: 14px;
 font-weight: 700;
 letter-spacing: 0.42px;
@@ -133,10 +133,10 @@ right: 0px;
 width: 200px;
 height: 50px;
 border-radius: 4px;
-background:var(--accent-color);
+background:$accent-color;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 border: none;
-color:var(--main-color);
+color:$main-color;
 font-size: 16px;
 font-weight: 700;
 line-height: 1.87;
@@ -149,5 +149,5 @@ align-items: center;
     margin-left: 10px;
     width: 24px;
     height: 24px;
-fill: var(--main-color);
+fill: $main-color;
 }

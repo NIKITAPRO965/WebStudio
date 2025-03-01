@@ -2,7 +2,7 @@
 .team{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: var(--back-ground-color);
+    background-color: $back-ground-color;
 }
 .team-list{
     display: flex;
@@ -15,12 +15,12 @@ border-radius: 0px 0px 4px 4px;
 }
 .team-div{
     padding: 30px 0px;
-    color: var(--main-color);
-    background-color: var(--main-color);
+    color: $main-color;
+    background-color: $main-color;
     border-radius: 0px 0px 4px 4px;
 }
 .team-title{
-    color: var(--text-color);
+    color: $text-color;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -34,7 +34,7 @@ height: 260px;
 flex-shrink: 0;
 }
 .team-caption{
-color: var(--text-color);
+color: $text-color;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
@@ -43,7 +43,7 @@ line-height:1.18;
 margin-bottom: 10px;
 }
 .text-team{
-    color: var(--additional-text-color);
+    color: $additional-text-color;
 text-align: center;
 font-size: 16px;
 font-weight: 400;
@@ -73,7 +73,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-icon{
-    fill: var(--icon);
+    fill: $icon;
     width: 20px;
 height: 20px;
 transition-property: fill;
@@ -84,9 +84,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .team-link:focus{
     border-radius: 50%;
     background-image: url(../img/symbol-defs.svg#icon-ellipse);
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     outline: 0px solid transparent;
     .team-icon{
-        fill: var(--main-color);
+        fill: $main-color;
     }
 }

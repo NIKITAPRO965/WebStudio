@@ -29,19 +29,6 @@ address {
   padding-right: 15px;
 }
 
-:root {
-  --logo-color: #000000;
-  --accent-color: #2196F3;
-  --text-color: #212121;
-  --additional-text-color: #757575;
-  --back-ground-footercolor: #2F303A;
-  --back-ground-footer-transparent-color: #2F303A;
-  --main-color: #FFFFFF;
-  --back-ground-color: #F5F4FA;
-  --back-ground-main-portfolio-color: #EEEEEE;
-  --icon: #AFB1B8;
-}
-
 body {
   font-family: "Roboto";
 }
@@ -49,7 +36,7 @@ body {
 header {
   padding-top: 24px;
   padding-bottom: 25px;
-  background-color: var(--main-color);
+  background-color: #FFFFFF;
 }
 
 .header-box {
@@ -62,7 +49,7 @@ header {
 }
 
 .active:visited {
-  color: var(--accent-color);
+  color: #2196F3;
 }
 
 .active::after {
@@ -70,14 +57,14 @@ header {
   width: 100%;
   height: 4px;
   border-radius: 2px;
-  background: var(--accent-color);
+  background: #2196F3;
   display: block;
   position: absolute;
   bottom: -33.59px;
 }
 
 .link {
-  color: var(--accent-color);
+  color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -87,7 +74,7 @@ header {
 }
 
 .header-span {
-  color: var(--logo-color);
+  color: #000000;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -101,7 +88,7 @@ header {
 }
 
 .nav-link {
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -113,7 +100,7 @@ header {
 
 .nav-link:hover,
 .nav-link:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   outline: 0px solid transparent;
 }
 
@@ -126,7 +113,7 @@ header {
 .header-link {
   display: flex;
   align-items: center;
-  color: var(--additional-text-color);
+  color: #757575;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0.28px;
@@ -137,7 +124,7 @@ header {
 }
 
 .header-picture {
-  fill: var(--additional-text-color);
+  fill: #757575;
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -147,7 +134,7 @@ header {
 }
 
 .header-icon {
-  fill: var(--additional-text-color);
+  fill: #757575;
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -158,20 +145,20 @@ header {
 
 .header-link:hover,
 .header-link:focus {
-  color: var(--accent-color);
+  color: #2196F3;
   outline: 0px solid transparent;
 }
 .header-link:hover .header-picture,
 .header-link:focus .header-picture {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 .header-link:hover .header-icon,
 .header-link:focus .header-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .hero {
-  background: var(--back-ground-footer-transparent-color);
+  background: #2F303A;
   flex-shrink: 0;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -186,7 +173,7 @@ header {
 }
 
 .order-headline {
-  color: var(--main-color);
+  color: #FFFFFF;
   text-align: center;
   font-size: 44px;
   font-weight: 900;
@@ -199,7 +186,7 @@ header {
 }
 
 .order-button {
-  color: var(--main-color);
+  color: #FFFFFF;
   text-align: center;
   font-family: Roboto;
   font-size: 16px;
@@ -207,7 +194,7 @@ header {
   line-height: 1.87;
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: var(--accent-color);
+  background: #2196F3;
   padding: 10px 32px;
   border-radius: 4px;
   border: none;
@@ -337,7 +324,7 @@ header {
 .information {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--main-color);
+  background-color: #FFFFFF;
 }
 
 .information-list {
@@ -346,7 +333,7 @@ header {
 }
 
 .information-title {
-  color: var(--text-color);
+  color: #212121;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -361,7 +348,7 @@ header {
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--back-ground-color);
+  background: #F5F4FA;
   margin-bottom: 30px;
   background-image: url(../img/vector.png);
   background-size: 70px 70px;
@@ -375,7 +362,7 @@ header {
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--back-ground-color);
+  background: #F5F4FA;
   margin-bottom: 30px;
   background-image: url(../img/clock.png);
   background-size: 70px 70px;
@@ -389,7 +376,7 @@ header {
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--back-ground-color);
+  background: #F5F4FA;
   margin-bottom: 30px;
   background-image: url(../img/diagram.png);
   background-size: 70px 70px;
@@ -403,7 +390,7 @@ header {
   height: 120px;
   flex-shrink: 0;
   border-radius: 4px;
-  background: var(--back-ground-color);
+  background: #F5F4FA;
   margin-bottom: 30px;
   background-image: url(../img/astronaut.png);
   background-size: 70px 70px;
@@ -412,7 +399,7 @@ header {
 }
 
 .information-text {
-  color: var(--additional-text-color);
+  color: #757575;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -574,7 +561,7 @@ header {
 }
 
 .clients-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -593,14 +580,14 @@ header {
   align-items: center;
   padding: 16px 32px;
   border-radius: 4px;
-  border: 1px solid var(--icon);
+  border: 1px solid #AFB1B8;
   transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-icon {
-  fill: var(--icon);
+  fill: #AFB1B8;
   width: 106px;
   height: 60px;
   transition-property: fill;
@@ -611,21 +598,21 @@ header {
 .clients-link:hover,
 .clients-link:focus {
   outline: 0px solid transparent;
-  border: 1px solid var(--accent-color);
+  border: 1px solid #2196F3;
 }
 .clients-link:hover .clients-icon,
 .clients-link:focus .clients-icon {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .footer {
-  background-color: var(--back-ground-footercolor);
+  background-color: #2F303A;
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .footer-link {
-  color: var(--accent-color);
+  color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -636,7 +623,7 @@ header {
 }
 
 .footer-span {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -649,7 +636,7 @@ header {
 }
 
 .address-link {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -708,7 +695,7 @@ header {
 .footer-links {
   border-radius: 50%;
   padding: 12px;
-  transition-property: background, background-color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -716,13 +703,13 @@ header {
 .footeer-icon {
   width: 20px;
   height: 20px;
-  fill: var(--main-color);
+  fill: #FFFFFF;
 }
 
 .footer-links:hover,
 .footer-links:focus {
   background: url(../img/symbol-defs.svg#icon-ellipse);
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   outline: 0px solid transparent;
 }
 
@@ -734,7 +721,7 @@ header {
 }
 
 .dives-text {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -769,10 +756,10 @@ header {
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
-  color: var(--main-color);
+  color: #FFFFFF;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
@@ -786,7 +773,7 @@ header {
   margin-left: 10px;
   width: 24px;
   height: 24px;
-  fill: var(--main-color);
+  fill: #FFFFFF;
 }
 
 .backdrop {
@@ -824,7 +811,7 @@ header {
   width: 528px;
   height: 581px;
   border-radius: 4px;
-  background: #FFF;
+  background: #FFFFFF;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   position: relative;
   padding: 40px;
@@ -868,7 +855,7 @@ header {
 }
 
 .modal-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 20px;
   font-weight: 700;
@@ -885,7 +872,7 @@ header {
 }
 
 .modal-label {
-  color: var(--additional-text-color);
+  color: #757575;
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0.12px;
@@ -906,7 +893,7 @@ header {
 .modal-input:hover,
 .modal-input:focus {
   border: none;
-  outline: 1px solid var(--accent-color);
+  outline: 1px solid #2196F3;
 }
 
 .modal-svgs {
@@ -922,7 +909,7 @@ header {
 
 .modal-input:hover + .modal-svgs,
 .modal-input:focus + .modal-svgs {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .modal-comment {
@@ -941,7 +928,7 @@ header {
 }
 
 .modal-text {
-  color: var(--additional-text-color);
+  color: #757575;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -950,7 +937,7 @@ header {
 }
 
 .modal-link {
-  color: var(--accent-color);
+  color: #2196F3;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
@@ -966,14 +953,14 @@ header {
 
 .modal-butt {
   padding: 10px 52px;
-  color: var(--main-color);
+  color: #FFFFFF;
   text-align: center;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.87;
   letter-spacing: 0.96px;
   border-radius: 4px;
-  background: var(--accent-color);
+  background: #2196F3;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   margin-top: 30px;

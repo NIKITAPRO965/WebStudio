@@ -1,7 +1,7 @@
 
 .work{
     padding-bottom: 94px;
-    background-color: var(--main-color);
+    background-color: $main-color;
 }
 .work-list{
     display: flex;
@@ -11,7 +11,7 @@
     position: relative;
 }
 .work-title{
-    color: var(--text-color);
+    color: $text-color;
 text-align: center;
 font-size: 36px;
 font-weight: 700;
@@ -24,7 +24,7 @@ width: 370px;
 height: 294px;
 }  
 .work-text{
-    color:var(--main-color);
+    color:$main-color;
 text-align: center;
 font-size: 14px;
 font-weight: 700;
