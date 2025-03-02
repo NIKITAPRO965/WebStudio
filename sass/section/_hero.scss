@@ -5,15 +5,13 @@ flex-shrink: 0;
 padding-top: 200px;
 padding-bottom: 200px;
 text-align: center;
-}
-.hero-box{
+&__box{
     background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcar.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-.order-headline{
+&__headline{
     color:$main-color;
 text-align: center;
 font-size: 44px;
@@ -25,7 +23,7 @@ width: 696px;
 margin: 0px auto;
 margin-bottom: 30px;
 }
-.order-button{
+&__button{
     color: $main-color;
 text-align: center;
 font-family: Roboto;
@@ -40,3 +38,7 @@ border-radius: 4px;
 border: none;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+}
+
+
+
