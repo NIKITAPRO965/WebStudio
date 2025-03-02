@@ -201,18 +201,18 @@ header {
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-.main-portfolio {
-  border-top: 1px solid var(--border);
+.portfolio {
+  border-top: 1px solid #ECECEC;
 }
 
 .projects {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--main-color);
+  background-color: #FFFFFF;
 }
 
 .other-button {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -221,15 +221,15 @@ header {
   border-radius: 4px;
   padding: 6px 25px;
   border: none;
-  transition-property: background, color, box-shadow;
+  transition-property: color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .other-button:hover,
 .other-button:focus {
-  background: var(--accent-color);
-  color: var(--main-color);
+  background: #2196F3;
+  color: #FFFFFF;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
   outline: 0px solid transparent;
 }
@@ -251,8 +251,8 @@ header {
 
 .projects-item {
   flex-basis: calc((100% - 60px) / 3);
-  border: 1px solid var(--back-ground-main-portfolio-color);
-  background: var(--main-color);
+  border: 1px solid #EEEEEE;
+  background: #FFFFFF;
   transition-property: box-shadow, visibility;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -280,7 +280,7 @@ header {
 
 .project-text {
   padding: 63px 24px;
-  color: var(--main-color);
+  color: #FFFFFF;
   background: rgba(33, 150, 243, 0.9);
   font-size: 18px;
   font-weight: 400;
@@ -301,7 +301,7 @@ header {
 }
 
 .projects-subject {
-  color: var(--text-color);
+  color: #212121;
   font-size: 18px;
   font-weight: 700;
   line-height: 2;
@@ -309,7 +309,7 @@ header {
 }
 
 .projects-text {
-  color: var(--additional-text-color);
+  color: #757575;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.87;
@@ -408,7 +408,7 @@ header {
 
 .work {
   padding-bottom: 94px;
-  background-color: var(--main-color);
+  background-color: #FFFFFF;
 }
 
 .work-list {
@@ -421,7 +421,7 @@ header {
 }
 
 .work-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -436,7 +436,7 @@ header {
 }
 
 .work-text {
-  color: var(--main-color);
+  color: #FFFFFF;
   text-align: center;
   font-size: 14px;
   font-weight: 700;
@@ -453,7 +453,7 @@ header {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: var(--back-ground-color);
+  background-color: #F5F4FA;
 }
 
 .team-list {
@@ -469,13 +469,13 @@ header {
 
 .team-div {
   padding: 30px 0px;
-  color: var(--main-color);
-  background-color: var(--main-color);
+  color: #FFFFFF;
+  background-color: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
 }
 
 .team-title {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -491,7 +491,7 @@ header {
 }
 
 .team-caption {
-  color: var(--text-color);
+  color: #212121;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -501,7 +501,7 @@ header {
 }
 
 .text-team {
-  color: var(--additional-text-color);
+  color: #757575;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -535,7 +535,7 @@ header {
 }
 
 .team-icon {
-  fill: var(--icon);
+  fill: #AFB1B8;
   width: 20px;
   height: 20px;
   transition-property: fill;
@@ -547,12 +547,12 @@ header {
 .team-link:focus {
   border-radius: 50%;
   background-image: url(../img/symbol-defs.svg#icon-ellipse);
-  background-color: var(--accent-color);
+  background-color: #2196F3;
   outline: 0px solid transparent;
 }
 .team-items:hover .team-icon,
 .team-link:focus .team-icon {
-  fill: var(--main-color);
+  fill: #FFFFFF;
 }
 
 .clients {
@@ -669,7 +669,7 @@ header {
 }
 
 .footer-title {
-  color: var(--main-color);
+  color: #FFFFFF;
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
@@ -851,7 +851,7 @@ header {
 
 .modal-close:hover .modal-svg:hover,
 .modal-close:focus .modal-svg:hover {
-  fill: var(--accent-color);
+  fill: #2196F3;
 }
 
 .modal-title {
