@@ -70,7 +70,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .modal-close:hover,
 .modal-close:focus{
     .modal-svg:hover{
-        fill: var(--accent-color);
+        fill: $accent-color;
     }
 }
 .modal-title{
