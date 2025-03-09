@@ -4,8 +4,9 @@
     padding-bottom: 94px;
     background-color: $main-color;
     &__list{
-        display: flex;
-        gap: 30px;
+        // display: flex;
+        // gap: 30px;
+        @include flex-box ($wrap:no-wrap, $gap:30px, $aling:start);
     }
     &__title{
         color: $text-color;

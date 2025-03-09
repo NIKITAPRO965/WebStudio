@@ -21,16 +21,18 @@
     border-radius: 4px;
     border: 1px solid $icon;
     transition-property: border;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %css-transition;
   }
   &__icon {
     fill: $icon;
     width: 106px;
     height: 60px;
     transition-property: fill;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    // transition-duration: 250ms;
+    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @extend %css-transition;
   }
   &__link:hover,
   &__link:focus {

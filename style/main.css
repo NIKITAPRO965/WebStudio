@@ -29,6 +29,11 @@ address {
   padding-right: 15px;
 }
 
+.clients__icon, .clients__link {
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 body {
   font-family: "Roboto";
 }
@@ -295,6 +300,10 @@ body {
 }
 .information__list {
   display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-wrap: no-wrap;
+  flex-direction: row;
   gap: 30px;
 }
 .information__title {
@@ -372,6 +381,10 @@ body {
 }
 .work__list {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
   gap: 30px;
 }
 .work__item {
@@ -448,7 +461,7 @@ body {
   line-height: 1.18;
   margin-bottom: 10px;
 }
-.team__team {
+.team__text {
   color: #757575;
   text-align: center;
   font-size: 16px;
@@ -520,16 +533,12 @@ body {
   border-radius: 4px;
   border: 1px solid #AFB1B8;
   transition-property: border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__icon {
   fill: #AFB1B8;
   width: 106px;
   height: 60px;
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients__link:hover, .clients__link:focus {
   outline: 0px solid transparent;
