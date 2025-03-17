@@ -1,18 +1,44 @@
 .header {
-  border-bottom: 1px solid $border-up ;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  border-bottom: 1px solid $border-up;
   background-color: $main-color;
-
-  @media screen and (min-width: 768px){
-    
+  padding-top: 10px;
+  padding-bottom: 10px;
+  @media screen and (min-width: 768px) {
+    padding-top: 21px;
+    padding-bottom: 21px;
   }
-  @media screen and (min-width: 1200px){
-    
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
   &__box {
     display: flex;
     align-items: center;
+  }
+  &__logo {
+    color: $accent-color;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.72px;
+    line-height: 1.38;
+    margin-right: 0px;
+    @media screen and (min-width: 768px){
+      margin-right: 88px;
+    }
+    @media screen and (min-width: 1200px) {
+      letter-spacing: 0.78px;
+      font-size: 26px;
+      margin-right: 93px;
+    }
+  }
+  &__span {
+    color: $logo-color;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0.78px;
+    line-height: 1.38;
   }
   &__active:visited {
     color: $accent-color;
@@ -27,45 +53,44 @@
     position: absolute;
     bottom: -33.59px;
   }
-  &__logo {
-    color: $accent-color;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    line-height: 1.38;
-    margin-right: 93px;
-  }
-  &__span {
-    color: $logo-color;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 700;
-    letter-spacing: 0.78px;
-    line-height: 1.38;
-  }
   &__list {
-    display: flex;
-    gap: 30px;
+    gap: 0px;
+    display: none;
     margin-left: auto;
+    @media screen and (min-width: 768px) {
+      flex-direction: column;
+      display: flex;
+      gap: 10px;
+    }
+    @media screen and (min-width: 1200px) {
+      flex-direction: row;
+      gap: 30px;
+    }
   }
   &__link {
     display: flex;
     align-items: center;
     color: $additional-text-color;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
-    letter-spacing: 0.28px;
+    letter-spacing: 0.24px;
     line-height: 1.14;
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @media screen and (min-width: 768px) {
+      gap: 8px;
+    }
+    @media screen and (min-width: 1200px) {
+      letter-spacing: 0.28px;
+      font-size: 14px;
+      gap: 10px;
+    }
   }
   &__picture {
     fill: $additional-text-color;
     width: 16px;
     height: 12px;
-    margin-right: 10px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -74,7 +99,6 @@
     fill: $additional-text-color;
     width: 10px;
     height: 16px;
-    margin-right: 10px;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -92,29 +116,34 @@
   }
 }
 
-.nav{
-    &__item {
-        position: relative;
-      }
-      
-      &__list {
-        display: flex;
-        gap: 50px;
-      }
-      &__link {
-        color: $text-color;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.28px;
-        line-height: 1.14;
-        transition-property: color;
-        transition-duration: 250ms;
-        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-        &:hover,
-      &:focus {
-        color: $accent-color;
-        outline: 0px solid transparent;
-      }
-      }
-      
+.nav {
+  display: none;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
+  @media screen and (min-width: 1200px) {
+  }
+  &__item {
+    position: relative;
+  }
+
+  &__list {
+    display: flex;
+    gap: 50px;
+  }
+  &__link {
+    color: $text-color;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    line-height: 1.14;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: $accent-color;
+      outline: 0px solid transparent;
+    }
+  }
 }
