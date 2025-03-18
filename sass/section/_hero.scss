@@ -8,18 +8,23 @@ padding-top: 118px;
 padding-bottom: 118px;
 text-align: center;
 @media screen and (min-width: 768px){
-    padding-top: 118px;
-    padding-bottom: 118px;
+
 }
 @media screen and (min-width: 1200px){
     padding-top: 200px;
     padding-bottom: 200px;
 }
 &__box{
-    background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcar.jpg);
+    background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcarmobile.jpg) ;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    @media screen and (min-width: 768px){
+        background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcartablet.jpg);
+    }
+    @media screen and (min-width: 1200px){
+        background-image:linear-gradient(rgba(47, 48, 58, 0.40), rgba(47, 48, 58, 0.40)), url(../img/workcardesktop.jpg);
+    }
 }
 &__headline{
     color:$main-color;

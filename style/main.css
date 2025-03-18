@@ -24,7 +24,7 @@ address {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   outline: 1px solid red;
   margin-left: auto;
   margin-right: auto;
@@ -228,12 +228,6 @@ body {
   padding-bottom: 118px;
   text-align: center;
 }
-@media screen and (min-width: 768px) {
-  .hero {
-    padding-top: 118px;
-    padding-bottom: 118px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
@@ -241,10 +235,20 @@ body {
   }
 }
 .hero__box {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/workcar.jpg);
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/workcarmobile.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) {
+  .hero__box {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/workcartablet.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__box {
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/workcardesktop.jpg);
+  }
 }
 .hero__headline {
   color: #FFFFFF;
