@@ -1,11 +1,32 @@
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: $back-ground-color;
+  @media screen and (min-width: 1200px){
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  &__title {
+    color: $text-color;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 1.17px;
+    line-height: 1.66;
+    margin-bottom: 50px;
+    @media screen and (min-width: 1200px){
+      font-size: 36px;
+      letter-spacing: 1.16px;
+    }
+  }
   &__list {
+    flex-wrap: wrap;
     display: flex;
     gap: 30px;
     border-radius: 0px 0px 4px 4px;
+    @media screen and (min-width: 1200px){
+flex-wrap: nowrap;
+    }
   }
   &__item {
     box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12),
@@ -18,19 +39,16 @@
     background-color: $main-color;
     border-radius: 0px 0px 4px 4px;
   }
-  &__title {
-    color: $text-color;
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    letter-spacing: 1.08px;
-    line-height: 1.66;
-    margin-bottom: 50px;
-  }
   &__img {
-    width: 270px;
-    height: 260px;
-    flex-shrink: 0;
+    width: 450px;
+    height: 460px;
+    @media screen and (min-width: 768px){
+      width: 354px;
+      height: 374px;
+    }
+    @media screen and (min-width: 1200px){
+      height: 260px;
+    }
   }
   &__caption {
     color: $text-color;

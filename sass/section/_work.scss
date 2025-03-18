@@ -1,6 +1,13 @@
 .work {
   padding-bottom: 94px;
   background-color: $main-color;
+  visibility: hidden;
+  display: none;
+  @media screen and (min-width: 1200px){
+visibility: visible;
+display: inline;
+
+  }
   &__list {
     // display: flex;
     // gap: 30px;
