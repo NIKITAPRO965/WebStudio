@@ -11,6 +11,16 @@
     line-height: 1.38;
     display: inline-block;
     margin-bottom: 20px;
+    @media screen and (min-width: 768px){
+      font-size: 24px;
+      letter-spacing: 0.72px;
+      line-height: 1.37;
+    }
+    @media screen and (min-width: 1200px){
+      font-size: 26px;
+      letter-spacing: 0.78px;
+      line-height: 1.38;
+    }
   }
   &__span {
     color: $main-color;
@@ -24,6 +34,8 @@
     font-style: normal;
   }
   &__linkes {
+    width: 232px;
+height: 21px;
     color: $main-color;
     font-size: 14px;
     font-weight: 400;
@@ -31,19 +43,33 @@
     letter-spacing: 0.42px;
     display: inline-block;
     margin-bottom: 9px;
+    text-align: center;
+    @media screen and (min-width: 1200px){
+  text-align: start;
+    }
   }
   &__list {
     display: flex;
     flex-direction: column;
     gap: 9px;
   }
+  // hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+  &__item{
+    text-align: center;
+    @media screen and (min-width: 1200px){
+text-align: start;
+    }
+  }
   &__link {
+    width: 232px;
+height: 21px;
     color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.42px;
   }
+  
   &__divest {
     display: flex;
     align-items: baseline;
