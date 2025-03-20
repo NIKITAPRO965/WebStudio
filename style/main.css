@@ -227,6 +227,13 @@ body {
   padding-top: 118px;
   padding-bottom: 118px;
   text-align: center;
+  width: -moz-max-content;
+  width: max-content;
+}
+@media screen and (min-width: 480px) {
+  .hero {
+    width: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .hero {
@@ -603,6 +610,13 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #F5F4FA;
+  width: -moz-max-content;
+  width: max-content;
+}
+@media screen and (min-width: 480px) {
+  .team {
+    width: auto;
+  }
 }
 @media screen and (min-width: 1200px) {
   .team {
@@ -626,6 +640,7 @@ body {
   }
 }
 .team__list {
+  justify-content: center;
   flex-wrap: wrap;
   display: flex;
   gap: 30px;
@@ -805,6 +820,17 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+@media screen and (min-width: 320px) {
+  .footer {
+    width: -moz-max-content;
+    width: max-content;
+  }
+}
+@media screen and (min-width: 480px) {
+  .footer {
+    width: auto;
+  }
+}
 .footer__divest {
   display: block;
   flex-wrap: wrap;
@@ -836,7 +862,6 @@ body {
   }
 }
 .footer__logo {
-  margin-top: 60px;
   color: #2196F3;
   font-family: Raleway;
   font-size: 26px;
