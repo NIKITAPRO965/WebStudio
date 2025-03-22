@@ -2,10 +2,6 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: $back-ground-color;
-  width: max-content;
-@media screen and (min-width: 480px){
-    width: auto;
-}
   @media screen and (min-width: 1200px){
     padding-top: 94px;
     padding-bottom: 94px;
@@ -45,8 +41,11 @@ flex-wrap: nowrap;
     border-radius: 0px 0px 4px 4px;
   }
   &__img {
-    width: 450px;
+    width: 100%;
+    @media screen and (min-width: 480px){
+      width: 450px;
     height: 460px;
+    }
     @media screen and (min-width: 768px){
       width: 354px;
       height: 374px;

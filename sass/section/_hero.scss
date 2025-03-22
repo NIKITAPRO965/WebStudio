@@ -7,13 +7,6 @@ flex-shrink: 0;
 padding-top: 118px;
 padding-bottom: 118px;
 text-align: center;
-width: max-content;
-@media screen and (min-width: 480px){
-    width: auto;
-}
-@media screen and (min-width: 768px){
-
-}
 @media screen and (min-width: 1200px){
     padding-top: 200px;
     padding-bottom: 200px;
@@ -31,6 +24,7 @@ width: max-content;
     }
 }
 &__headline{
+    width: 100%;
     color:$main-color;
 text-align: center;
 font-size: 26px;
@@ -38,9 +32,12 @@ font-weight: 900;
 line-height:1.61 ;
 letter-spacing: 1.56px;
 text-transform: uppercase;
-width: 360px;
+
 margin: 0px auto;
 margin-bottom: 30px;
+@media screen and (min-width: 480px){
+    width: 360px;
+}
 @media screen and (min-width: 1200px){
     font-size: 44px;
     letter-spacing: 2.64px;

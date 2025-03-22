@@ -8,9 +8,9 @@
   &__list {
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
-    @media screen and (min-width: 768px){
-
+    justify-content: center;
+    @media screen and (min-width: 480px){
+      justify-content: space-between;
     }
     @media screen and (min-width: 1200px){
   flex-wrap: nowrap;
@@ -31,6 +31,18 @@
       margin-bottom: 0px;
     }
   }
+  &__item:nth-child(5){
+    margin-bottom: 30px;
+    @media screen and (min-width: 480px){
+      margin-bottom: 30px;
+    }
+    @media screen and (min-width: 768px){
+      margin-bottom: 0px;
+    }
+    @media screen and (min-width: 1200px){
+      margin-bottom: 0px;
+    }
+  }
   &__title {
     color: $text-color;
     text-align: center;
@@ -43,6 +55,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     padding: 16px 52px;
     border-radius: 4px;
     border: 1px solid $icon;
@@ -50,6 +63,9 @@
     // transition-duration: 250ms;
     // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @extend %css-transition;
+    @media screen and (min-width: 768px){
+      padding: 16px 52px;
+    }
     @media screen and (min-width: 768px){
       padding: 16px 60px;
     }
