@@ -853,12 +853,26 @@ body {
   }
 }
 .clients__title {
+  width: 100%;
   color: #212121;
   text-align: center;
-  font-size: 36px;
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 1.08px;
-  margin-bottom: 50px;
+  letter-spacing: 0.84px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 480px) {
+  .clients__title {
+    width: 314px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .clients__title {
+    margin: 0px auto 50px auto;
+    width: 297px;
+    font-size: 36px;
+    letter-spacing: 1.08px;
+  }
 }
 .clients__link {
   display: flex;
