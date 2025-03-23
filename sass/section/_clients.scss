@@ -1,76 +1,40 @@
 .clients {
   padding-top: 60px;
   padding-bottom: 60px;
-  @media screen and (min-width: 1200px){
+  text-align: center;
+  @media screen and (min-width: 1200px) {
     padding-top: 94px;
     padding-bottom: 94px;
   }
   &__list {
-    flex-wrap: wrap;
     display: flex;
-    justify-content: space-between;
-    @media screen and (min-width: 1200px){
-  flex-wrap: nowrap;
-    }
+    gap: 30px;
+    flex-wrap: wrap;
   }
-  
-  
-  &__item{
-    // width: 100%;
-    height: 92px;
-    @media screen and (min-width: 480px){
-      width: 210px;
+
+  &__item {
+    flex-basis: calc((100% - 30px) / 2);
+    @media screen and (min-width: 768px) {
+      flex-basis: calc((100% - 60px) / 3);
     }
-      @media screen and (min-width: 768px){
-        width: 226px;
-      }
-      @media screen and (min-width: 1200px){
-  width: 170px;
-      }
-  }
-  &__item:nth-child(-n+3){
-    margin-bottom: 30px;
-    @media screen and (min-width: 1200px){
-      margin-bottom: 0px;
-    }
-  }
-  &__item:nth-child(4){
-    margin-bottom: 30px;
-    @media screen and (min-width: 768px){
-      margin-bottom: 0px;
-    }
-    @media screen and (min-width: 1200px){
-      margin-bottom: 0px;
-    }
-  }
-  &__item:nth-child(5){
-    margin-bottom: 30px;
-    @media screen and (min-width: 480px){
-      margin-bottom: 30px;
-    }
-    @media screen and (min-width: 768px){
-      margin-bottom: 0px;
-    }
-    @media screen and (min-width: 1200px){
-      margin-bottom: 0px;
+    @media screen and (min-width: 1200px) {
+      flex-basis: calc((100% - 150px) / 6);
     }
   }
   &__title {
-    width: 100%;
+    width: 314px;
     color: $text-color;
-    text-align: center;
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 0.84px;
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
-    @media screen and (min-width: 480px){
+    @media screen and (min-width: 480px) {
       width: 314px;
     }
-    @media screen and (min-width: 1200px){
+    @media screen and (min-width: 1200px) {
       margin-bottom: 50px;
-      width: 297px;
       font-size: 36px;
       letter-spacing: 1.08px;
     }
@@ -80,34 +44,30 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 16px 52px;
+    height: 92px;
     border-radius: 4px;
-    border: 1px solid $icon;
+    outline: 1px solid $icon;
     transition-property: border;
-    // transition-duration: 250ms;
-    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @extend %css-transition;
-    @media screen and (min-width: 480px){
-      padding: 16px 52px;
+    @media screen and (min-width: 480px) {
+      width: 210px;
     }
-    @media screen and (min-width: 768px){
-      padding: 16px 60px;
+    @media screen and (min-width: 768px) {
+      width: 226px;
     }
-    @media screen and (min-width: 1200px){
-      padding: 16px 32px;
+    @media screen and (min-width: 1200px) {
+      width: 170px;
     }
   }
   &__icon {
     fill: $icon;
-    width: 100%;
+    width: 106px;
     height: 60px;
     transition-property: fill;
-    // transition-duration: 250ms;
-    // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     @extend %css-transition;
-    @media screen and (min-width: 480px){
-      width: 106px;
-    }
+    // @media screen and (min-width: 480px) {
+    //   width: 106px;
+    // }
   }
   &__link:hover,
   &__link:focus {
