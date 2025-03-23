@@ -367,6 +367,8 @@ body {
 }
 
 .other__list {
+  margin-left: 0px;
+  margin-right: 0px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -385,6 +387,8 @@ body {
     margin-bottom: 30px;
     justify-content: center;
     width: 575px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (min-width: 1200px) {
