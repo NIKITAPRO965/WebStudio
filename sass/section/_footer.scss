@@ -11,10 +11,13 @@
     }
     @media screen and (min-width: 768px){
       display: flex;
+      padding-left: 76px;
+      padding-right: 89px;
     }
     @media screen and (min-width: 1200px){
   flex-wrap: nowrap;
-  
+  padding-left: 0px;
+      padding-right: 0px;
     }
   }
   &__div{
@@ -95,21 +98,16 @@ height: 21px;
   
   
   &__divs {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 60px;
-    width: 206px;
-height: 80px;
     @media screen and (min-width: 768px){
       margin-left: 165px;
     }
     @media screen and (min-width: 1200px){
       margin-left: 70px;
       margin-right: 0px;
-      margin-top: 0px;
     }
   }
   &__title {
+    margin-top: 60px;
     color: $main-color;
     font-size: 14px;
     font-weight: 700;
@@ -117,12 +115,16 @@ height: 80px;
     text-transform: uppercase;
     margin-bottom: 20px;
     text-align: center;
+    @media screen and (min-width: 768px){
+      margin-top: 0px;
+    }
     @media screen and (min-width: 1200px){
   text-align: start;
     }
   }
   &__listes {
     display: flex;
+    justify-content: center;
     gap: 10px;
   }
   &__items {
