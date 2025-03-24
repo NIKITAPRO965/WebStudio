@@ -326,17 +326,12 @@ body {
   }
 }
 .projects__item {
-  flex-basis: calc((100% - 30px) / 1);
+  width: 100%;
   border: 1px solid #EEEEEE;
   background: #FFFFFF;
   transition-property: box-shadow, visibility;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-@media screen and (min-width: 480px) {
-  .projects__item {
-    width: 450px;
-  }
 }
 @media screen and (min-width: 768px) {
   .projects__item {
@@ -417,6 +412,7 @@ body {
     margin-bottom: 30px;
     justify-content: center;
     width: 575px;
+    height: 38px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -477,16 +473,6 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transform: translateY(100%);
-}
-@media screen and (min-width: 768px) {
-  .project__text {
-    padding: 49px 24px 77px 24px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .project__text {
-    padding: 63px 24px;
-  }
 }
 
 .information {
