@@ -22,6 +22,9 @@
     <header class="header">
       <div class="container header__box">
       <a class="header__logo animate__animated animate__bounceInLeft" href="./index.html"> Web<span class="header__span">Studio</span></a>
+      <button type="button" class="header__menu" data-menu-open><svg class="header__burger">
+        <use href ="img/symbol-defs.svg#icon-menu"></use>
+      </svg></button>
       <nav class="header__nav nav">
         <ul class="nav__list">
           <li class="nav__item animate__animated animate__bounceInDown"><a class="nav__link header__active" href="./index.html">Студія</a></li>
@@ -34,6 +37,26 @@
         <li class="header__item animate__animated animate__bounceInDown"><a class="header__link" href="mailto:info@devstudio.com"><svg class="header__picture"><use href="./img/symbol-defs.svg#icon-email"></use></svg>info@devstudio.com</a></li>
         <li class="header__item animate__animated animate__bounceInDown"><a class="header__link" href="tel:+380961111111"><svg class="header__icon"><use href="./img/symbol-defs.svg#icon-smartphone"></use></svg>+38 (096) 111 11 11</a></li>
       </ul>
+      <div class="menu is-hidden" data-menu>
+        <button class="menu__close" type="button" data-menu-close><svg class="menu__icon">
+          <use href ="img/symbol-defs.svg#icon-close"></use>
+        </svg></button>
+        <ul class="menu__list">
+          <li class="menu__item"><a href="./index.html" class="menu__link menu__active">Студія</a></li>
+          <li class="menu__item"><a href="./portfolio.html" class="menu__link">Портфоліо</a></li>
+          <li class="menu__item"><a href="" class="menu__link">Контакти</a></li>
+        </ul>
+        <ul class="menu__lists">
+          <li class="menu__items"><a href="tel:+380961111111" class="menu__tel">+38 (096) 111 11 11</a></li>
+          <li class="menu__items"><a href="mailto:info@devstudio.com" class="menu__contact">info@devstudio.com</a></li>
+        </ul>
+        <ul class="menu__listes">
+          <li class="menu__itemes"><a href="#" class="menu__links">Instagram</a></li>
+          <li class="menu__itemes"><a href="#" class="menu__links">Twitter</a></li>
+          <li class="menu__itemes"><a href="#" class="menu__links">Facebook</a></li>
+          <li class="menu__itemes"><a href="#" class="menu__caption">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
     </header>
     <main>
@@ -236,5 +259,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

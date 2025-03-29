@@ -84,7 +84,7 @@ body {
   font-weight: 700;
   letter-spacing: 0.72px;
   line-height: 1.38;
-  margin-right: 0px;
+  margin-right: auto;
 }
 @media screen and (min-width: 768px) {
   .header__logo {
@@ -97,6 +97,19 @@ body {
     font-size: 26px;
     margin-right: 93px;
   }
+}
+.header__menu {
+  border: none;
+  background-color: transparent;
+}
+@media screen and (min-width: 768px) {
+  .header__menu {
+    display: none;
+  }
+}
+.header__burger {
+  width: 40px;
+  height: 40px;
 }
 .header__span {
   color: #000000;
@@ -216,6 +229,96 @@ body {
 .nav__link:hover, .nav__link:focus {
   color: #2196F3;
   outline: 0px solid transparent;
+}
+
+.menu {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+  padding: 48px 0px 48px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.menu__close {
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  transition-property: visibility, transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu__close:hover .menu__icon:hover .menu__icon:hover, .menu__close:focus .menu__icon:hover .menu__icon:hover {
+  fill: #2196F3;
+}
+.menu__list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.menu__link {
+  color: #212121;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 0.85;
+  letter-spacing: 0.8px;
+}
+.menu__link:hover, .menu__link:focus {
+  color: #2196F3;
+}
+.menu__active:visited {
+  color: #2196F3;
+}
+.menu__lists {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: 302px;
+}
+.menu__tel {
+  color: #2196F3;
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 0.85;
+  letter-spacing: 0.68px;
+}
+.menu__contact {
+  color: #757575;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: 0.48px;
+}
+.menu__listes {
+  display: flex;
+  margin-top: 64px;
+  gap: 10px;
+}
+.menu__links {
+  color: #2196F3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.36px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.menu__caption {
+  color: #2196F3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.36px;
 }
 
 .hero {
