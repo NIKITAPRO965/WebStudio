@@ -106,15 +106,24 @@
         <h2 class="work__title">Чим ми займаємося</h2>
         <ul class="work__list">
           <li class="work__item">
-            <img class="work__image" src="./img/it.jpg" alt="it" />
+            <picture>
+            <source srcset="./img/desktop/it-desktop@1x.webp 1x, ./img/desktop/it-desktop@2x.webp 2x" media="(min-width:1200px)">
+              <img class="work__image" src="./img/it.jpg" alt="it" />
+            </picture>
             <p class="work__text">Десктопні додатки</p>
           </li>
           <li class="work__item">
-            <img class="work__image" src="./img/phone.jpg" alt="phone" />
+            <picture>
+              <source srcset="./img/desktop/phone-desktop@1x.webp 1x, ./img/desktop/phone-desktop@2x.webp 2x" media="(min-width:1200px)">
+              <img class="work__image" src="./img/phone.jpg" alt="phone" />
+            </picture>
             <p class="work__text">Мобільні додатки</p>
           </li>
           <li class="work__item">
-            <img class="work__image" src="./img/colorsontablets.jpg" alt="colorsontablets" />
+            <picture>
+              <source srcset="./img/desktop/colors-desktop@1x.webp 1x, ./img/desktop/colors-desktop@2x.webp 2x" media="(min-width:1200px)">
+              <img class="work__image" src="./img/colorsontablets.jpg" alt="colorsontablets" />
+            </picture>
             <p class="work__text">Дизайнерські рішення</p>
           </li>
         </ul>
